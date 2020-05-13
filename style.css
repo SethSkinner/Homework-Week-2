@@ -1,0 +1,14 @@
+html,
+body {
+  height: 100%;
+  background: url(https://image.shutterstock.com/image-vector/blue-white-light-polygonal-mosaic-260nw-230257930.jpg);
+  background-size: 200%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
