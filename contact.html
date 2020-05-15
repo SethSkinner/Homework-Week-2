@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link href="CSS/all.css" rel="stylesheet">
+    <script defer src="js/all.js"></script>
     <title>Document</title>
 </head>
 <body class="d-flex flex-column">
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
-    <a class="navbar-brand" href="index.html">SWS</a>
+    <a class="navbar-brand nav-a text-center" href="index.html">Seth Wyatt Skinner</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,25 +35,31 @@
         </div>
   </nav>
 
-      <hr>
+  <h1 class="text-center icons">
+    <i class="fab fa-linkedin-in "></i>
+    <i class="fab fa-github"></i>
+    <i class="fas fa-envelope-open-text"></i>
+  </h1>
+
+  <hr>
 
   <main class="text center">
     <section class="container whitecontainer wrapper">
       <section class="row">
-        <section class="col-md-6">
-          <h1>Contact Info</h1>
+        <section class="col-md-12">
+          <h1 class="text-center">Contact Info</h1>
           <hr>
           <form>
             <div class="form-group">
-              <label for="exampleFormControlInput1">Email address</label>
+              <label" for="exampleFormControlInput1">Name:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email Address:</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="form-group">
-              <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Example textarea</label>
+              <label for="exampleFormControlTextarea1">Message</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
               <button type="submit" class="btn btn-primary">Submit</button>
