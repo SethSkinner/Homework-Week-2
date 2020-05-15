@@ -14,10 +14,18 @@ body {
 
 /* Other Classes for Page Styling */
 
-body {
-  background: linear-gradient(to right, #0062E6, #33AEFF);
-}
 
 .whitecontainer{
   background-color: white;
+  border-radius: 12px;
+  
+}
+
+img {
+  border-radius: 12px;
+}
+
+.wrapper{
+  width: 800px;
+  margin: 0 auto;
 }
