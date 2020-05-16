@@ -47,6 +47,15 @@ footer {
   margin-top: 20px;
 }
 
-.bcr {
+a {
+  color: #b81435;
+}
+
+.btn1 {
   background-color: #b81435;
+  border-color: #b81435;
+}
+
+.submitbtn {
+  height: 350px;
 }
