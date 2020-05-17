@@ -4,7 +4,7 @@ Things Done On This Assignment:
 
 1) added a responsive layout to each page
 
-2 )made a sticky nav and footer that were responsive
+2)made a sticky nav and footer that were responsive
 
 3) used semantic text to layout each page
 
