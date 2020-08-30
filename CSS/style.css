@@ -1,7 +1,7 @@
 html,
 body {
   height: 100%;
-  background-image: url(https://lh3.googleusercontent.com/nqXvaewGAzKKVWEgwkr2byfpGZI-MzxhAanjiw17a0rLuJNFY7iJbt1_2I8XxXVReQyjje4Q7qGHu1AGvphOak_O_Y8a4WMmKAhZh4DG-kGqR3gU1tFXnbz__Khp0JB19tVpy9A-vA6mJBMPQ9bhdPjwIOu4es5kdcu0vrjdWYqfv_gK0SoABlkNL3yTeWZbSLgMTpTzPsJbUQmEZQB4-Ayajzd0M500ZW7e3-M6S_9nTMVmjKBYN2ynPGmV0YOxqwLcclRuaKtgqbGfi98pwwNbDwB-nIhDYFiCG9AmOipRqcjeyD3d9usiQ78VWhODeo7BHHhZQ48T5zCTzIi3AKUzzxUgN2y4O15d_RpkMJz9HEM33cFLVuZHvxwVxu55iiva0LBtYhFLPbzVdnbLcjn0YF9d6YGn2p3YYqPGumAi04PGRvmmC_pEBdy9Ud5aQZbZXiQ961_ng3qM0D1rzHl48iG2mBIUC_V0IXJjQavl04A9UcZiHzebuUZE9eYL_5aLwxcBaoqZoCQAYS0tjTy9-SnyLTb-P1o65NJgQGyO-F3Xr4lCID0lnP0X-p7FqNXPuolMjTOJWYouoGhyyf_XG42i_9i6a3_GPD4PALiOnNrHHArr0iISiyNNHKXOS6PJR1Smw-Qs1XNZxGoTNKxSXytDC4AyQSxLdXNGMSzdO2x_jqhRFTNCfAOZ5w=w1723-h969-no?authuser=0);
+  background-image: url(../Images/background.jpeg);
   background-size: 100%;
 }
 
@@ -55,11 +55,11 @@ a {
 }
 
 .text-center {
-  color: whitesmoke;
+  color: black;
 }
 
 .text {
-  color: whitesmoke;
+  color: black;
 }
 
 .t1 {
